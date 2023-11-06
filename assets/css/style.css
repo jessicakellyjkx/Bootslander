@@ -956,9 +956,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# testemunhas
+# marketing
 --------------------------------------------------------------*/
-.testemunhas {
+.marketing {
   padding: 80px 0;
   background: url("../img/cta-bg.jpg") no-repeat;
   background-position: center center;
@@ -966,99 +966,99 @@ section {
   position: relative;
 }
 
-.testemunhas::before {
+.marketing::before {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   bottom: 0;
-  background: #03A6A6;
+  background: #10121F;
 }
 
-.testemunhas .section-header {
+.marketing .section-header {
   margin-bottom: 40px;
 }
 
-.testemunhas .testemunhas-carousel,
-.testemunhas .testemunhas-slider {
+.marketing .marketing-carousel,
+.marketing .marketing-slider {
   overflow: hidden;
 }
 
-.testemunhas .testimonial-item {
+.marketing .testimonial-item {
   text-align: center;
   color: #fff;
 }
 
-.testemunhas .testimonial-item .testimonial-img {
+.marketing .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
 
-.testemunhas .testimonial-item h3 {
+.marketing .testimonial-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
 }
 
-.testemunhas .testimonial-item h4 {
+.marketing .testimonial-item h4 {
   font-size: 14px;
   color: #ddd;
   margin: 0 0 15px 0;
 }
 
-.testemunhas .testimonial-item .quote-icon-left,
-.testemunhas .testimonial-item .quote-icon-right {
+.marketing .testimonial-item .quote-icon-left,
+.marketing .testimonial-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
 }
 
-.testemunhas .testimonial-item .quote-icon-left {
+.marketing .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
-.testemunhas .testimonial-item .quote-icon-right {
+.marketing .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
 
-.testemunhas .testimonial-item p {
+.marketing .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
   color: #eee;
 }
 
-.testemunhas .swiper-pagination {
+.marketing .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-.testemunhas .swiper-pagination .swiper-pagination-bullet {
+.marketing .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   opacity: 1;
   background-color: rgba(255, 255, 255, 0.4);
 }
 
-.testemunhas .swiper-pagination .swiper-pagination-bullet-active {
+.marketing .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #049DBF;
 }
 
 @media (min-width: 1024px) {
-  .testemunhas {
+  .marketing {
     background-attachment: fixed;
   }
 }
 
 @media (min-width: 992px) {
-  .testemunhas .testimonial-item p {
+  .marketing .testimonial-item p {
     width: 80%;
   }
 }
@@ -1338,14 +1338,14 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# contato
 --------------------------------------------------------------*/
-.contact .info {
+.contato .info {
   width: 100%;
   background: #fff;
 }
 
-.contact .info i {
+.contato .info i {
   font-size: 20px;
   color: #3f43fd;
   float: left;
@@ -1359,7 +1359,7 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.contact .info h4 {
+.contato .info h4 {
   padding: 0 0 0 60px;
   font-size: 22px;
   font-weight: 600;
@@ -1367,35 +1367,35 @@ section {
   color: #010483;
 }
 
-.contact .info p {
+.contato .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
   color: #0205a1;
 }
 
-.contact .info .email,
-.contact .info .phone {
+.contato .info .email,
+.contato .info .phone {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i,
-.contact .info .address:hover i,
-.contact .info .phone:hover i {
+.contato .info .email:hover i,
+.contato .info .address:hover i,
+.contato .info .phone:hover i {
   background: #049DBF;
   color: #fff;
 }
 
-.contact .php-email-form {
+.contato .php-email-form {
   width: 100%;
   background: #fff;
 }
 
-.contact .php-email-form .form-group {
+.contato .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
-.contact .php-email-form .error-message {
+.contato .php-email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -1404,11 +1404,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contato .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.contato .php-email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -1417,14 +1417,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.contato .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.contato .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1436,22 +1436,22 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contato .php-email-form input,
+.contato .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php-email-form input {
+.contato .php-email-form input {
   height: 44px;
 }
 
-.contact .php-email-form textarea {
+.contato .php-email-form textarea {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contato .php-email-form button[type=submit] {
   background: #049DBF;
   border: 0;
   padding: 10px 30px;
@@ -1460,7 +1460,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contato .php-email-form button[type=submit]:hover {
   background: #34e5a6;
 }
 
